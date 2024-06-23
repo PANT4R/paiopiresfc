@@ -1,0 +1,134 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0%;
+padding: 0;
+}
+
+/*----------------------- navbar ----------------------*/
+
+  
+    
+.navbar{
+  /* background-color: rgb(22, 22, 22); */
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+  background: linear-gradient(to right, #6e6e6e, #000000); /* Degrade entre a cor da navbar e o fundo do site */
+  
+  }
+  
+  .navbar ul {
+      padding-inline: 3%;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+  
+  }
+  .navbar a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+  }
+  
+    .navbar li {
+     
+      padding: 10px; /* Espaçamento interno para melhorar a aparência */
+      border-radius: 50px;
+      padding-inline: 20px;
+      transition: background-color 0.2s ease;
+    }
+  
+    .navbar li:hover {
+      max-width: 100%;
+      max-height: 100%;
+      transition: transform 0.4s ease;
+      transform: scale(1.25);
+      background-color: #db3434;
+    }
+  
+  
+    .navbar li:first-child {
+       
+      border: none;
+      background-color: transparent;
+    }
+    
+  .navbar-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10px;
+      width: 70px;
+  }
+  
+  .navbar-logo img {
+      max-width: 100%;
+      max-height: 100%;
+      transition: transform 0.3s ease;
+  }
+  
+  .navbar-logo img:hover { 
+      transform: scale(1.25);
+  }
+  
+/*----------------------- RESTO ----------------------*/
+
+
+.container_all_bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  background: linear-gradient(to bottom, #ffffff, #ff0000, #000000);
+}
+
+.container_title{
+
+  margin-top: 70px; /* Ajuste de acordo com a necessidade */
+
+  /* Define a família da fonte */
+font-family: 'Times New Roman ', sans-serif;
+
+/* Define o tamanho da fonte */
+font-size: 70px;
+
+/* Define o estilo da fonte (normal, itálico, etc.) */
+font-style: italic;
+
+/* Define a espessura da fonte (normal, negrito, etc.) */
+font-weight: bold;
+
+
+}
+.container_logo_pp img{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  display: block;
+}
+
+.container_texto{
+  margin-top: 50px; /* Ajuste de acordo com a necessidade */
+  text-align: left;
+  font-size: 150%;
+
+}
+/*----------------------- Foorter ----------------------*/
+
+.footer-info {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+}
+
+.container_imagem img {
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 5%;
+}
+
+.container_imagem {
+  
+}

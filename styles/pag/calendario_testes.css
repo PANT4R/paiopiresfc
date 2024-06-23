@@ -1,0 +1,160 @@
+    /*----------------------- navbar ----------------------*/
+    
+     
+    *{
+        margin: 0;
+    }
+
+    
+    .navbar{
+        /* background-color: rgb(22, 22, 22); */
+        padding-top: 1.7%;
+        padding-bottom: 1.7%;
+        background: linear-gradient(to right, #6e6e6e, #000000); /* Degrade entre a cor da navbar e o fundo do site */
+        
+        }
+        
+        .navbar ul {
+            padding-inline: 3%;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+        
+        }
+        .navbar a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        
+          .navbar li {
+           
+            padding: 10px; /* Espaçamento interno para melhorar a aparência */
+            border-radius: 50px;
+            padding-inline: 20px;
+            transition: background-color 0.2s ease;
+          }
+        
+          .navbar li:hover {
+            background-color: #db3434;
+          }
+        
+        
+          .navbar li:first-child {
+             
+            border: none;
+            background-color: transparent;
+          }
+          
+        .navbar-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10px;
+            width: 70px;
+        }
+        
+        .navbar-logo img {
+            max-width: 100%;
+            max-height: 100%;
+            transition: transform 0.3s ease;
+        }
+        
+        .navbar-logo img:hover { 
+            transform: scale(1.25);
+        }
+      
+    
+  /*----------------------- Foorter ----------------------*/
+
+.footer-info {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-top: 15%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+}
+
+.container_imagem img {
+  width: 40%;
+  margin-top: 100px;
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.container_imagem img:hover{
+  transform: scale(1.25);
+}
+
+.calendar-container {
+    position: relative;
+    width: 1200px; /* Ajuste a largura conforme necessário */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 0.8 opacity */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.month {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Define a largura como 100% para ocupar todo o espaço do contêiner pai */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 0.9 opacity */
+}
+
+.weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekdays div, .days div {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.weekdays div {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.days div {
+    border: 1px solid #ddd;
+    margin: -1px 0 0 -1px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-day img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.month {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ajuste a largura dos meses conforme necessário */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 0.9 opacity */
+}
+
+
+.month {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.438);
+    width: 280px;
+}
